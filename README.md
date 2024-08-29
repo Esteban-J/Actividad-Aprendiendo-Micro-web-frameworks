@@ -1,47 +1,48 @@
 # Actividad| Aprendiendo Micro web frameworks
 
-This is an aplication exercise introductory to the creation of a micro web faramework project. In this case we are using [scalatra](https://scalatra.org/) framework to deploy a [scala](https://www.scala-lang.org/) aplication.
+This is an aplication exercise introductory to the creation of a micro web framework project. In this case we are using [scalatra](https://scalatra.org/) framework to deploy a [scala](https://www.scala-lang.org/) aplication.
 
 ## Getting Started
 
 To get the source files of this project click on the next link to download them as a .zip file: 
-https://github.com/Esteban-J/Actividad-Aprendiendo-Micro-web-frameworks/archive/refs/heads/main.zip
+[Download project)(https://github.com/Esteban-J/Actividad-Aprendiendo-Micro-web-frameworks/archive/refs/heads/main.zip]
 
 ### Prerequisites
 
-In this project you will be executing bash commands. If you are not using a unix based operative system you'll need to download a bash cli.
+* Bash CLI: This project uses bash commands. If you're not on a Unix-based operating system, you'll need to install a bash CLI. For Windows, you can use Git Bash or Windows Subsystem for Linux (WSL).
 
-To be able to run and test this project on your local machine you must have [scala](https://www.scala-lang.org/) installed. Follow the instructions given on their website for it's instalation instructions: https://www.scala-lang.org/download/3.3.3.html
+* Scala: Ensure Scala is installed on your machine. Follow the installation instructions on the [Scala website](https://www.scala-lang.org/).
 
-As well, you'll need to install [sbt](https://www.scala-sbt.org/) to run the scalatra project. Follow the instructions on the oficcial scalatra framework website to install sbt. https://scalatra.org/getting-started/installation.html
+* sbt: You'll need sbt (Simple Build Tool) to run the Scalatra project. Install sbt by following the instructions on the [sbt website](https://www.scala-sbt.org/).
 
-## Running the tests
+## Running the Application
 
-Once having extracted the files inside your project directory, open a bash terminal on it and execute the following command to lift and start a server where the applccation will be deploy.
+1. Extract the files from the downloaded .zip file into your project directory.
+
+2. Open a bash terminal in your project directory.
+
+3. Run the following command to start the server:
 
 ```
 sbt ~Jetty/start
 ```
 By default the server will be on http://localhost:8080
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+This application is a REST web application and supports various HTTP methods. You can test these methods using the following commands in a separate terminal:
 
 ```
-Give an example
+curl -X POST http://localhost:8080/users
+curl -X GET http://localhost:8080/users/1
+curl -X PATCH http://localhost:8080/users/1
+curl -X DELETE http://localhost:8080/users/1
 ```
+Alternatively, you can use a tool like [Postman](https://www.postman.com/) to interact with the API.
 
 ## Built With
 
 * [scalatra](https://scalatra.org/) - The web framework used
-* [JDK](https://maven.apache.org/) - Dependency Management
-* [sbt](https://www.scala-sbt.org/) / to buil the scala project
-
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [scala](https://www.scala-lang.org/)  - Programming language
+* [sbt](https://www.scala-sbt.org/) - to buil the scala project
 
 ## Authors
 

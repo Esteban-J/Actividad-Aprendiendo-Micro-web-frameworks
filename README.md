@@ -5,15 +5,15 @@ This is an aplication exercise introductory to the creation of a micro web frame
 ## Getting Started
 
 To get the source files of this project click on the next link to download them as a .zip file: 
-[Download project)(https://github.com/Esteban-J/Actividad-Aprendiendo-Micro-web-frameworks/archive/refs/heads/main.zip]
+[Download project](https://github.com/Esteban-J/Actividad-Aprendiendo-Micro-web-frameworks/archive/refs/heads/main.zip]
 
 ### Prerequisites
 
-* Bash CLI: This project uses bash commands. If you're not on a Unix-based operating system, you'll need to install a bash CLI. For Windows, you can use Git Bash or Windows Subsystem for Linux (WSL).
+* **Bash CLI**: This project uses bash commands. If you're not on a Unix-based operating system, you'll need to install a bash CLI. For Windows, you can use Git Bash or Windows Subsystem for Linux (WSL).
 
-* Scala: Ensure Scala is installed on your machine. Follow the installation instructions on the [Scala website](https://www.scala-lang.org/).
+* **Scala**: Ensure Scala is installed on your machine. Follow the installation instructions on the [Scala website](https://www.scala-lang.org/).
 
-* sbt: You'll need sbt (Simple Build Tool) to run the Scalatra project. Install sbt by following the instructions on the [sbt website](https://www.scala-sbt.org/).
+* **sbt**: You'll need sbt (Simple Build Tool) to run the Scalatra project. Install sbt by following the instructions on the [sbt website](https://www.scala-sbt.org/).
 
 ## Running the Application
 

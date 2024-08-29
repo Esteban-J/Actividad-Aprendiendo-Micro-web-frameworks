@@ -5,7 +5,7 @@ This is an aplication exercise introductory to the creation of a micro web frame
 ## Getting Started
 
 To get the source files of this project click on the next link to download them as a .zip file: 
-[Download project](https://github.com/Esteban-J/Actividad-Aprendiendo-Micro-web-frameworks/archive/refs/heads/main.zip]
+[Download project](https://github.com/Esteban-J/Actividad-Aprendiendo-Micro-web-frameworks/archive/refs/heads/main.zip)
 
 ### Prerequisites
 
